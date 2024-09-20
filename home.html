@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yum yum home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        <a href="home.html">yum - yum 😋</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="menu.html">menu</a>
+        <a href="orders.html">orders</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        <a href="search.html"><i class="fas fa-search"></i></a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+        <div id="user-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+
+    <div class="user-info">
+        <div class="name">
+            <p>Stefan ginal</p>
+        </div>
+        <div class="flex">
+            <a href="profile.html" class="main-btn">Profile</a>
+            <a href="#" class="second-btn">Logout</a>
+        </div>
+        <div class="down">
+            <a href="login.html">login</a>
+            <p>or</p>
+            <a href="register.html">register</a>
+        </div>
+    </div>
+
+</header>
+
+
+<section class="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <p>order online</p>
+                    <h3>Delicious Pizza</h3>
+                    <a href="menu.html" class="main-btn">See Menus</a>
+                </div>
+
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <p>order online</p>
+                    <h3>Double Hamburger</h3>
+                    <a href="menu.html" class="main-btn">See Menus</a>
+                </div>
+
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <p>order online</p>
+                    <h3>Roasted Chicken</h3>
+                    <a href="menu.html" class="main-btn">See Menus</a>
+                </div>
+
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="food-category">
+
+    <div class="head">
+        <h1>Food category</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/cat-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fast food</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/cat-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>main dishes</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/cat-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>drinks</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/cat-4.png" alt="">
+            </div>
+            <div class="content">
+                <h3>desserts</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="latest">
+
+    <div class="head">
+        <h1>Latest Dishes</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="uploaded_img/pizza-1.png" alt="">
+            </div>
+            <div class="content">
+                <p>fast food</p>
+                <h3>delicious pizza 01</h3>
+            </div>
+            <div class="price">
+                <h3><span>$</span>3<span>/-</span></h3>
+                <input type="number" name="number" min="1" max="99" onkeypress="if(this.value.length == 2) return false" class="number" value="1">
+            </div>
+            <button type="submit" class="fas fa-eye" name="quick-view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="uploaded_img/dish-1.png" alt="">
+            </div>
+            <div class="content">
+                <p>dishes</p>
+                <h3>main dish 01</h3>
+            </div>
+            <div class="price">
+                <h3><span>$</span>3<span>/-</span></h3>
+                <input type="number" name="" min="1" max="99" onkeypress="if(this.value.length == 2) return false" class="number" value="1">
+            </div>
+            <button type="submit" class="fas fa-eye" name="quick-view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="uploaded_img/burger-1.png" alt="">
+            </div>
+            <div class="content">
+                <p>fast food</p>
+                <h3>chezzy hamburger 01</h3>
+            </div>
+            <div class="price">
+                <h3><span>$</span>3<span>/-</span></h3>
+                <input type="number" name="" min="1" max="99" onkeypress="if(this.value.length == 2) return false" class="number" value="1">
+            </div>
+            <button type="submit" class="fas fa-eye" name="quick-view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="uploaded_img/dessert-1.png" alt="">
+            </div>
+            <div class="content">
+                <p>dessert</p>
+                <h3>delicious dessert 01</h3>
+            </div>
+            <div class="price">
+                <h3><span>$</span>3<span>/-</span></h3>
+                <input type="number" name="" min="1" max="99" onkeypress="if(this.value.length == 2) return false" class="number" value="1">
+            </div>
+            <button type="submit" class="fas fa-eye" name="quick-view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="uploaded_img/drink-1.png" alt="">
+            </div>
+            <div class="content">
+                <p>drinks</p>
+                <h3>fresh drink 01</h3>
+            </div>
+            <div class="price">
+                <h3><span>$</span>3<span>/-</span></h3>
+                <input type="number" name="" min="1" max="99" onkeypress="if(this.value.length == 2) return false" class="number" value="1">
+            </div>
+            <button type="submit" class="fas fa-eye" name="quick-view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="uploaded_img/dish-2.png" alt="">
+            </div>
+            <div class="content">
+                <p>fast food</p>
+                <h3>delicious pizza 01</h3>
+            </div>
+            <div class="price">
+                <h3><span>$</span>3<span>/-</span></h3>
+                <input type="number" name="" min="1" max="99" onkeypress="if(this.value.length == 2) return false" class="number" value="1">
+            </div>
+            <button type="submit" class="fas fa-eye" name="quick-view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+        </div>
+
+    </div>
+
+    <div class="button">
+        <a href="menu.html" class="main-btn">View all</a>
+    </div>
+    
+
+</section>
+
+
+<section class="info-bar">
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/email-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>our email</h3>
+                <a href="#">stefanginal00@gmail.com</a>
+                <a href="#">email@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/clock-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>opening hours</h3>
+                <p>07:00am to 10:00pm</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/map-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>our address</h3>
+                <p>Subotica, Srbija - 24000</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/phone-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>our numbers</h3>
+                <a href="#">+381/ 652524200</a>
+                <a href="#">+381/ 652524800</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<div class="credits">
+    <h3>copyright @ 2022 by <span>Ginal</span> | all rights reserved!</h3>
+</div>
+
+
+<div class="loader">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  
+
+<script src="js/script.js"></script>
+    
+</body>
+</html>
